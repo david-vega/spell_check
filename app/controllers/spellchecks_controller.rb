@@ -1,0 +1,3 @@
+class SpellchecksController < ApplicationController
+
+end
