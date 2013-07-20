@@ -2,7 +2,7 @@ class SpellchecksController < ApplicationController
   include SpellcheckHelper
 
   def index
-    @correct = spellcheck 'cokie'
+    @spellcheck = spellcheck 'cokie'
   end
 
 end
