@@ -4,11 +4,11 @@ This is a Ruby on Rails Spell-Check
 
 === Installation
 
-### Installing Aspell
+==== Installing Aspell
 
 * Clone the project
 * Arch Linux: `sudo pacman -S aspell`
-* OS X: (`brew install aspell --lang=en`
+* OS X: `brew install aspell --lang=en`
 * Run `bundle install`
 
 
