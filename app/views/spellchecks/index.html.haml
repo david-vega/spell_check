@@ -1,9 +1,7 @@
-%p= @spellcheck[:msg]
+%h1 Spell check
 
--unless @spellcheck[:is_correct]
-  %p
-    %strong Did you mean:
-    - @spellcheck[:suggestions].each do |suggestion|
-      %br
-      = suggestion
+= render 'spellchecks/form'
+
+-if @spellcheck
+  = render 'spellchecks/results'
 

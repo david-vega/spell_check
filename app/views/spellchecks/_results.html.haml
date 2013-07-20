@@ -1,0 +1,8 @@
+%p= @spellcheck[:msg]
+
+-unless @spellcheck[:is_correct]
+  %p
+    %strong Did you mean:
+    - @spellcheck[:suggestions].each do |suggestion|
+      %br
+      = suggestion
