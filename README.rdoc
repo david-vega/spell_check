@@ -1,0 +1,17 @@
+== Spell Check
+
+This is a Ruby on Rails Spell-Check
+
+=== Installation
+
+### Installing Aspell
+
+* Clone the project
+* Arch Linux: `sudo pacman -S aspell`
+* OS X: (`brew install aspell --lang=en`
+* Run `bundle install`
+
+
+Enjoy!
+
+for more information you can check the Follow the instructions to install [ffi-aspell](https://github.com/YorickPeterse/ffi-aspell) site
