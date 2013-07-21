@@ -1,4 +1,4 @@
 SpellCheck::Application.routes.draw do
-  match ':controller(/:action(/:id))(.:format)'
+  resources :spellchecks, only: :index
   root :to => 'spellchecks#index'
 end
